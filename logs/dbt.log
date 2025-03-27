@@ -1,0 +1,30 @@
+[0m10:20:36.878180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa08f3747d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa08e25e390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa08feb2420>]}
+
+
+============================== 10:20:36.895819 | 11e7f8d4-1f7c-4d4e-ad9a-26914fc95a56 ==============================
+[0m10:20:36.895819 [info ] [MainThread]: Running with dbt=1.9.3
+[0m10:20:36.897200 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/aksharbhalodia/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init dbtdemo', 'send_anonymous_usage_stats': 'True'}
+[0m10:20:37.137276 [debug] [MainThread]: Starter project path: /mnt/c/Users/akshar.bhalodia/dbt-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m10:20:37.376058 [info ] [MainThread]: 
+Your new dbt project "dbtdemo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:20:37.376936 [info ] [MainThread]: Setting up your profile.
+[0m10:22:53.536238 [info ] [MainThread]: Profile dbtdemo written to /home/aksharbhalodia/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:22:53.544306 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 136.72778, "process_in_blocks": "39416", "process_kernel_time": 0.387175, "process_mem_max_rss": "109260", "process_out_blocks": "8", "process_user_time": 1.632414}
+[0m10:22:53.545530 [debug] [MainThread]: Command `dbt init` succeeded at 10:22:53.545393 after 136.73 seconds
+[0m10:22:53.546753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa08e421070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa08cd630e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa08cf97800>]}
+[0m10:22:53.547852 [debug] [MainThread]: Flushing usage events
+[0m10:22:54.618959 [debug] [MainThread]: An error was encountered while trying to flush usage events
