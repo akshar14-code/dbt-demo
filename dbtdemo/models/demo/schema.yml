@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: fivetran
     description: "connecting with fivetran"
-    database: "DBT_DB"
+    database: "DEMO_DB"
     schema: "PUBLIC"
     tables:
-      - name: "NIFTY_FIFTY"
+      - name: "STOCKS"
